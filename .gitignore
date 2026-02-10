@@ -42,3 +42,14 @@ buildNumber.properties
 .project
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
+
+# .gitignore - ignore Copilot-generated XML files and directories
+# any filename containing "copilot" and ending with .xml
+*copilot*.xml
+
+# a dedicated copilot dir (if present)
+.copilot/
+.github/copilot/
+
+# more specific patterns (optional)
+**/*copilot-*.xml
